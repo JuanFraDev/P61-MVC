@@ -42,8 +42,10 @@ int main()
             break;
         case 4:
             cout << "Bye bye" << endl;
+            break;
         default:
             cout << "Opción no valida!" << endl;
+            break;
         }
     } while(opc != 4);
     return 0;
